@@ -1,0 +1,128 @@
+/*common start*/
+body{
+	font-family: 'Playfair Display', serif;
+	font-size:16px;
+	font-weight:400;
+	color:#626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 30px 0;
+
+}
+.container{
+	margin: 0 auto;
+	overflow:hidden;
+	width:90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	margin-top:9px;
+	width:13%;
+	/*border: 1px solid green;*/
+	float:left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	/*border: 1px solid green;*/
+	float:right;
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+	
+
+}
+.menu ul li a {
+	display:inline-block;
+	margin: 0px 50px;
+	color:#626262 ;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom:1px solid transparent;
+	transition:.33s; 
+
+}
+
+.menu ul li a:hover{
+	border-bottom: 1px solid  #626262;
+}
+
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+
+.banner{}
+.b_img{}
+.b_img img{
+	width:100%;
+}
+/*banner end*/
+/*getaway start*/
+.getaway{
+	padding: 100px 0 20px;
+}
+.container2{
+	margin: 0 auto;
+	width: 80%;
+	
+	overflow: hidden;
+}
+
+.c_light{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.c_title{
+	margin: 25px 0 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.c_text{
+	margin: 0;
+	line-height: 24px;
+}
+.mt_45{
+	margin-top: 45px;
+}
+/*getaway end*/
+/*blog start*/
+.blog{
+	padding-bottom: 100px;
+}
+
+.s_blog{
+	margin-top:60px;
+	width: 47%;
+	
+	float: left;
+
+}
+.s_blog:nth-child(even){
+	margin-left: 6%;
+}
+
+.s_img{
+	margin-bottom: 25px;
+
+}
+.s_img img{
+	width:100%;
+}
+/*blog end*/
+
